@@ -50,16 +50,6 @@
     <servlet-name>ItemListServlet</servlet-name>
     <url-pattern>/ItemListServlet</url-pattern>
 </servlet-mapping>
-
-<servlet>
-    <servlet-name>UndoServlet</servlet-name>
-    <servlet-class>com.grocie.servlets.ItemListServlet</servlet-class>
-</servlet>
-
-<servlet-mapping>
-    <servlet-name>UndoServlet</servlet-name>
-    <url-pattern>/UndoServlet</url-pattern>
-</servlet-mapping>
   
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
