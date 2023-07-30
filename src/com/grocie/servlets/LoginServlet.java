@@ -28,10 +28,10 @@ public class LoginServlet extends HttpServlet {
         if (user != null && password.equals(user.getPassword())) {
             // User exists and password is correct - log the user in
             req.getSession().setAttribute("username", username);
-            resp.sendRedirect("home.html");
+            resp.sendRedirect("home.jsp");
         } else {
             req.setAttribute("errorMessage", "Invalid username or password");
-            req.getRequestDispatcher("login.html").forward(req, resp);
+            req.getRequestDispatcher("login.jsp").forward(req, resp);
         }
     }
 }

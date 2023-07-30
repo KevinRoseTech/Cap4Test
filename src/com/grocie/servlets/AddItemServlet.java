@@ -38,14 +38,14 @@ public class AddItemServlet extends HttpServlet {
         HttpSession session = req.getSession(false); // Do not create a new session if it does not exist
         if (session == null) {
             // The user's session has expired or does not exist
-            resp.sendRedirect("login.html"); // Redirect to the login page
+            resp.sendRedirect("login.jsp"); // Redirect to the login page
             return;
         }
         
         String username = (String) session.getAttribute("username");
         if (username == null) {
             // The username attribute does not exist in the session
-            resp.sendRedirect("login.html"); // Redirect to the login page
+            resp.sendRedirect("login.jsp"); // Redirect to the login page
             return;
         }
     	
@@ -78,6 +78,6 @@ public class AddItemServlet extends HttpServlet {
         
         command.setItem(item);
 
-        resp.sendRedirect("home.html");
+        resp.sendRedirect("home.jsp");
     }
 }

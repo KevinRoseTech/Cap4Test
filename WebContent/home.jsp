@@ -5,9 +5,9 @@
 </head>
 <body>
     <nav id="navbar">
-        <a href="home.html">Home Page</a>
+        <a href="home.jsp">Home Page</a>
         <a href="/Capstone4Testing/ItemListServlet">Added Items</a>
-        <a href="settings.html">Settings</a>
+        <a href="settings.jsp">Settings</a>
         <a href="/Capstone4Testing/LogoutServlet">Sign Out</a>
     </nav>
     <main>

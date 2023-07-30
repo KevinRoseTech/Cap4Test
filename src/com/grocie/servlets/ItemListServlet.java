@@ -47,10 +47,10 @@ public class ItemListServlet extends HttpServlet {
 				+ "</head>\r\n"
 				+ "<body>\r\n"
 				+ "    <nav id=\"navbar\">\r\n"
-				+ "        <a href=\"home.html\">Home Page</a>\r\n"
+				+ "        <a href=\"home.jsp\">Home Page</a>\r\n"
 				+ "        <a href=\"/Capstone4Testing/ItemListServlet\">Added Items</a>\r\n"
-				+ "        <a href=\"settings.html\">Settings</a>\r\n"
-				+ "        <a href=\"signout.html\">Sign Out</a>\r\n"
+				+ "        <a href=\"settings.jsp\">Settings</a>\r\n"
+				+ "        <a href=\"signout.jsp\">Sign Out</a>\r\n"
 				+ "    </nav>\r\n"
 				+ "\r\n"
 				+ "<h1>Added Items</h1>";

@@ -22,13 +22,13 @@ public class UserItemsServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession(false); 
         if (session == null) {
-            resp.sendRedirect("login.html");
+            resp.sendRedirect("login.jsp");
             return;
         }
 
         String username = (String) session.getAttribute("username");
         if (username == null) {
-            resp.sendRedirect("login.html");
+            resp.sendRedirect("login.jsp");
             return;
         }
 
