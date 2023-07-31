@@ -2,6 +2,7 @@ package com.grocie.beans;
 
 import java.time.LocalDate;
 
+
 public class GroceryItem {
     private int id;
     private String username;
