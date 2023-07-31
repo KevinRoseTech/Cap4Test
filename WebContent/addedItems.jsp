@@ -6,7 +6,7 @@
     <title>Added Items</title>
     <link rel="stylesheet" href="style.css"/>
 
-    <!-- Add some inline CSS for the table -->
+
     <style>
         table {
             width: 100%;
